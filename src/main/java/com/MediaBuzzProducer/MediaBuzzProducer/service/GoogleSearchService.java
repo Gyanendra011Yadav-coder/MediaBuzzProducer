@@ -13,8 +13,8 @@ import java.time.format.DateTimeFormatter;
 
 public class GoogleSearchService {
 
-    private static final String API_KEY = "AIzaSyB8Wz7thAr5v8xNiAPB5uU8N5d2wa_1Xdg";
-    private static final String CX_ID = "723d493547ffb4712";
+    private static final String API_KEY = "-get from google dashBoard";
+    private static final String CX_ID = "-get from google dashBoard";
     private static String publicationsQuery = "site:barandbench.com OR site:livelaw.in OR site:lexology.com OR site:indiatoday.in OR site:economictimes.indiatimes.com OR site:thehindubusinessline.com OR site:bombayhighcourt.nic.in OR site:calcuttahighcourt.nic.in OR site:madraslawjournal.com OR site:maharashtralawjournal.com OR site:thelawyermagazine.in OR site:spicyip.com OR site:ipleaders.in OR site:altlawforum.org OR site:lawctopus.com OR site:nlsiu.ac.in OR site:livemint.com OR site:thehindu.com OR site:timesofindia.indiatimes.com OR site:hindustantimes.com OR site:indianexpress.com OR site:deccanherald.com OR site:telegraphindia.com OR site:legallyindia.com OR site:theleaflet.in OR site:manupatrafast.com OR site:ndtv.com OR site:theprint.in OR site:scroll.in OR site:thequint.com OR site:outlookindia.com";
     private static final String SEARCH_QUERY = "lakshmikumaran & sridharan"+ publicationsQuery; //private static final String SEARCH_QUERY = "Adidas recent media coverage";
     private static final String API_URL = "https://www.googleapis.com/customsearch/v1";
